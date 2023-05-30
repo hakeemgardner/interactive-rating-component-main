@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+/* font-family: 'Overpass', sans-serif; */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-family: "Overpass", sans-serif;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  height: 400px;
+  width: 400px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+}
+p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.submit {
+  background-color: hsl(25, 97%, 53%); /* Green */
+  border: none;
+  color: white;
+  padding: 8px 140px;
+  border-radius: 18px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.ratings {
+  background-color: hsl(217, 12%, 63%);
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-left: 0.5rem;
+  margin-bottom: 2.5rem;
+  cursor: pointer;
+}
+.ratings:hover {
+  color: white;
+  background-color: hsl(217, 12%, 63%);
+}
+.ratings:active {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+}
+
+.star {
+  background-color: hsl(216, 12%, 54%);
+  padding: 0.5rem 0.5rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.thank-you-modal {
+  display: none;
+  background-color: hsl(213, 19%, 18%);
+  height: 400px;
+  width: 400px;
+  padding: 3rem 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  position: absolute;
+  transform: translateY(-22.3rem);
+}
+.thank-you-photo {
+  display: block;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+.rating-para {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 54%);
+  padding: 0.2rem;
+  width: 250px;
+  border-radius: 2rem;
+  margin-left: 3.5rem;
+}
